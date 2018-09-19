@@ -11,18 +11,21 @@ html {
 }
 
 #header {
+    /* Pay attention to display: block; */
+    display: block;
     border-bottom: 3px;
     border-bottom-style: solid;
     font-family: Georgia, Times, Times New Roman, serif;
     background-color: antiquewhite;
     padding-left: 240px;
-
 }
 
 h1 {
     width: 300px;
     font-size: 20pt;
     text-align: center;
+    /* Check CSS Demo on Box sizing */
+    box-sizing: content-box;
 }
 
 a {
@@ -49,7 +52,7 @@ p {
 }
 
 /* Don't think I need a section for the .footer class */
-#lower {
+#main {
     background-color: antiquewhite;
 }
 
