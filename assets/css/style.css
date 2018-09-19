@@ -1,0 +1,56 @@
+html {
+    background: url("../images/bckgrnd.png") repeat-x 0 0 scroll;
+    height:100%;
+    width:100%;
+}
+
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+#header {
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-color: black;
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+
+h1 {
+    /* ready for code */
+}
+
+a {
+
+}
+
+#bio {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Georgia, Times, Times New Roman, serif;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-color: black;
+}
+
+#bio-image {
+    width: 200px;
+}
+
+p {
+    /* ready for code */
+}
+
+/* Don't think I need a section for the .footer class */
+
+#footer1 {
+    background-color: burlywood;
+}
+
+#footer2 {
+    background-color: black;
+}
