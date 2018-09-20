@@ -10,56 +10,87 @@ html {
     padding: 20px;
 }
 
+/* Header Section */
 #header {
-    /* Pay attention to display: block; */
-    display: block;
     border-bottom: 3px;
     border-bottom-style: solid;
-    font-family: Georgia, Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: antiquewhite;
     padding-left: 240px;
 }
-
 h1 {
-    width: 300px;
+    width: fit-content;
+    height: 50px;
+    padding: 10px;
     font-size: 20pt;
     text-align: center;
-    /* Check CSS Demo on Box sizing */
-    box-sizing: content-box;
+    position: relative;
+    display: inline-block;
+    margin-right: 460px;
+    line-height: 50px;
+    font-weight: bold;
 }
 
-a {
-
+nav {
+    display: inline-block;
+    font-size: 14pt;
+    color: black
 }
 
+#nav1:hover, #nav2:hover, #nav3:hover {
+    color: blue;
+}
+
+#nav1, #nav2 {
+    border-right: solid;
+    border-color: black;
+    padding: 10px; 
+}
+
+#nav3 {
+    padding-left: 10px;
+}
+
+/* Bio Section */
 #bio {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: inline-block;
+    background-color: antiquewhite;
 }
 
 h2 {
-    font-family: Georgia, Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 18pt;
     border-bottom: 2px;
     border-bottom-style: solid;
     border-color: black;
+    padding: 15px;
+    padding-left: 21px;
 }
 
 #bio-image {
     width: 200px;
+    float: left;
+    padding: 18px;
 }
 
 p {
-    /* ready for code */
+    padding-right: 25px;
 }
 
-/* Don't think I need a section for the .footer class */
-#main {
-    background-color: antiquewhite;
+#p1 {
+    margin-top: 18px;
 }
 
 #footer1 {
+    height: 24px;
     background-color: burlywood;
 }
 
 #footer2 {
+    height: 24px;
     background-color: black;
+    position: sticky;
+    margin-bottom: 0px;
 }
