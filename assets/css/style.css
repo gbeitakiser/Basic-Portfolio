@@ -24,7 +24,7 @@ html {
 h1 {
     width: fit-content;
     height: 50px;
-    padding: 10px;
+    padding: 18px;
     font-size: 20pt;
     text-align: center;
     position: relative;
@@ -89,6 +89,15 @@ p {
 #p1 {
     margin-top: 18px;
 }
+
+#p2 {
+    margin-left: 18px;
+}
+
+#p3 {
+    margin-left: 18px;
+    margin-bottom: 20px;
+}
     /* Bio Section End */
 
 /* Portfolio Section !!NEEDS WORK!! */
@@ -104,6 +113,7 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
     background-color: antiquewhite;
+    padding: 18px;
 }
 
 form div + div {
@@ -114,6 +124,7 @@ label {
 /* To make sure that all labels have the same size and are properly aligned */
     display: inline-block;
     width: 75px;
+    margin-bottom: 5px;
 }
 
 input, textarea {
@@ -123,7 +134,7 @@ By default, textareas have a monospace font */
     width: 900px;
     box-sizing: border-box;
     border: 1px solid black;
-    height: 2em;
+    height: 3em;
 }
   
 input:focus, textarea:focus {
@@ -138,21 +149,15 @@ textarea {
 /* To give enough room to type some text */
     height: 25em;
 }
-  
-.button {
-/* To position the buttons to the same position of the text fields */
-    padding-left: 90px; /* same size as the label elements */
-}
-  
-button {
-/* This extra margin represent roughly the same space as the space
-    between the labels and their text fields */
-    margin-left: .5em;
-}
 
 #c-head {
     background-color: antiquewhite;
-    padding-left: 10px;
+    padding-left: 18px;
+}
+
+button {
+    width: 80px;
+    height: 20px;
 }
 
 /* Contact Section End */
@@ -163,15 +168,21 @@ button {
     height: 237px;
 }
 
+#footer1, #footer2 { 
+    position: sticky;
+}
+
 #footer1 {
-    height: 24px;
-    background-color: black;
+    height: 80px;
+    background-color: burlywood;
 }
 
 #footer2 {
-    height: 24px;
-    background-color: burlywood;
-    position: sticky;
-    margin-bottom: 0px;
+    height: 80px;
+    background-color: black;
 }
-    /* Footer Section End */
+
+#linked {
+    width: 12px;
+}
+    /* Footer Section and CSS End */
