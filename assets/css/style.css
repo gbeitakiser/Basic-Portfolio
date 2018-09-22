@@ -29,7 +29,7 @@ h1 {
     text-align: center;
     position: relative;
     display: inline-block;
-    margin-right: 460px;
+    margin-right: 417px;
     line-height: 50px;
     font-weight: bold;
     background-color: burlywood;
@@ -83,6 +83,7 @@ h2 {
 
 p {
     padding-right: 25px;
+    line-height: 25pt;
 }
 
 #p1 {
@@ -96,6 +97,66 @@ p {
 } */ 
     /* Portfolio Section End */
 
+/* Contact Section */
+
+form {
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #CCC;
+    background-color: antiquewhite;
+}
+
+form div + div {
+    margin-top: 1.5em;
+}
+  
+label {
+/* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 75px;
+}
+
+input, textarea {
+/* To make sure that all text fields have the same font settings
+By default, textareas have a monospace font */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 900px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 2em;
+}
+  
+input:focus, textarea:focus {
+/* To give a little highlight on active elements */
+    border-color: #000;
+}
+  
+textarea {
+/* To properly align multiline text fields with their labels */
+    vertical-align: top;
+  
+/* To give enough room to type some text */
+    height: 25em;
+}
+  
+.button {
+/* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+  
+button {
+/* This extra margin represent roughly the same space as the space
+    between the labels and their text fields */
+    margin-left: .5em;
+}
+
+#c-head {
+    background-color: antiquewhite;
+    padding-left: 10px;
+}
+
+/* Contact Section End */
+  
 /* Footer Section */
 
 .push {
