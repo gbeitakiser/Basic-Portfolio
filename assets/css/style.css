@@ -15,10 +15,9 @@ html {
 
     /* Header Section */
 #header {
-    border-bottom: 3px;
     border-bottom-style: solid;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: antiquewhite;
+    background-color: black;
     padding-left: 240px;
 }
 h1 {
@@ -41,19 +40,19 @@ nav {
 }
 
 #nav1:hover, #nav2:hover, #nav3:hover {
-    color: blue;
+    color: white;
 }
 
 #nav1, #nav2 {
     border-right: solid;
     border-color: black;
     padding: 10px; 
-    color: black;
+    color: wheat;
 }
 
 #nav3 {
     padding-left: 10px;
-    color: black;
+    color: wheat;
 }
     /* Header Section End */
 
@@ -173,7 +172,7 @@ button {
 }
 
 #footer1 {
-    height: 80px;
+    height: 40px;
     background-color: burlywood;
 }
 
@@ -182,7 +181,13 @@ button {
     background-color: black;
 }
 
-#linked {
-    width: 12px;
+.social {
+    margin: 0 auto;
+    width: 10%;
+    padding-top: 19px;
+}
+
+#logos {
+    width: 35px;
 }
     /* Footer Section and CSS End */
