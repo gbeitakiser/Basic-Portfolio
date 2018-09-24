@@ -71,7 +71,7 @@ h2 {
     border-bottom-style: solid;
     border-color: black;
     padding: 15px;
-    padding-left: 21px;
+    padding-left: 19px;
 }
 
 #bio-image {
@@ -100,9 +100,46 @@ p {
     /* Bio Section End */
 
 /* Portfolio Section !!NEEDS WORK!! */
-/* .portfolio { 
+
+.portfolio { 
     background: antiquewhite;
-} */ 
+    height: 685px;
+}
+
+#blocks {
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+#image1 {
+    width: 300px;
+    padding: 30px;
+    float: left;
+}
+
+#image2 {
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    margin-left: 140px;
+    float: left;
+}
+
+#image3 {
+    width: 200px;
+    padding: 30px;
+    margin-left: 55px;
+    float: left;
+}
+
+#image4{
+    width: 200px;
+    padding: 30px;
+    margin-left: 240px;
+    float: left;
+}
     /* Portfolio Section End */
 
 /* Contact Section */
@@ -120,32 +157,26 @@ form div + div {
 }
   
 label {
-/* To make sure that all labels have the same size and are properly aligned */
     display: inline-block;
     width: 75px;
     margin-bottom: 5px;
 }
 
 input, textarea {
-/* To make sure that all text fields have the same font settings
-By default, textareas have a monospace font */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 900px;
     box-sizing: border-box;
     border: 1px solid black;
     height: 3em;
+    font-size: 9pt;
 }
   
 input:focus, textarea:focus {
-/* To give a little highlight on active elements */
     border-color: #000;
 }
   
 textarea {
-/* To properly align multiline text fields with their labels */
     vertical-align: top;
-  
-/* To give enough room to type some text */
     height: 25em;
 }
 
@@ -164,7 +195,7 @@ button {
 /* Footer Section */
 
 .push {
-    height: 237px;
+    height: 10px;
 }
 
 #footer1, #footer2 { 
@@ -189,5 +220,10 @@ button {
 
 #logos {
     width: 35px;
+    margin-right: 10px;
+}
+
+#logos:hover {
+    background-color: wheat;
 }
     /* Footer Section and CSS End */
