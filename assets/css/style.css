@@ -106,11 +106,15 @@ p {
     height: 685px;
 }
 
-#blocks {
+.blocks {
     display: block;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 20px;
+}
+
+#pic1, #pic2, #pic3, #pic4  {
+    position: relative;
 }
 
 #image1 {
@@ -140,11 +144,60 @@ p {
     margin-left: 240px;
     float: left;
 }
+
+h3 {
+    color: black; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 15pt;
+    background: burlywood;
+    padding: 10px;
+    text-align: center;
+}
+
+#span1 {
+    position: absolute;
+    bottom: -75px;
+    right: 530px;
+    width: 300px;
+}
+
+#span2{
+    position: absolute;
+    bottom: -75px;
+    right: 30px;
+    width: 300px;
+}
+
+#span3 {
+    position: absolute;
+    bottom: -550px;
+    right: 575px;
+    width: 200px;
+}
+
+#span4 {
+    position: absolute;
+    bottom: -550px;
+    right: 75px;
+    width: 200px;
+}
+
+#link1:visited, #link2:visited, #link3:visited, #link4:visited { 
+    color: black;
+}
+
+#link1:hover, #link2:hover, #link3:hover, #link4:hover {
+    color: wheat;
+}
+
+/* span { */
+    /* Do I need this^^^^^??? It's in my HTML too so delete it if I don't need it*/
+/* } */
     /* Portfolio Section End */
 
 /* Contact Section */
 
-form {
+.form {
     margin: 0 auto;
     padding: 1em;
     border: 1px solid #CCC;
